@@ -1,4 +1,4 @@
-# Energy Access & Reliability Analytics Pipeline
+# Solar Plant Performance & Reliability Analytics Pipeline
 
 
 ## Problem
@@ -15,10 +15,10 @@ mirroring the kind of operational efficiency analysis used in infrastructure
 and asset performance monitoring.
 
 ## Tech Stack
-Python | SQL (PostgreSQL) | Power BI
+Python | SQL (SQLite) | Power BI
 
 ## Architecture
-[diagram image goes here once built]
+![Architecture diagram](architecture-diagram.png)
 
 ## Data Source
 [Solar Power Generation Data](https://www.kaggle.com/datasets/pythonafroz/solar-power) — 
@@ -50,4 +50,3 @@ DC/AC power output and yield data from solar plant inverters.
 ```
 4. Run the ETL script (`etl/clean_data.py`) to clean and process the data
 5. Run the SQL queries in `sql/queries.sql` against the loaded data
-6. Open `dashboard/dashboard.pbix` in Power BI Desktop to view visualizations
